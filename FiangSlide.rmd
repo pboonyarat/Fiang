@@ -1,0 +1,41 @@
+---
+title: "Analysis of stationary Sales"
+author: "Fiang"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Data Summary
+
+```{r}
+summary(pressure)
+```
+
+
+
+## Analysis of Dataset
+
+
+1. the data from >> https://www.kaggle.com/datasets
+
+2. 16 Observations
+
+3. Divided into: Region, Rep.,Item, Units, UnitCost, Total
+
+
+
+## Plot of Data
+```{r fig.width=12, fig.height=6}
+plot(pressure)
+```
+
+## What to do further
+
+1. Change Dataset
+
+2. Add more observations 
